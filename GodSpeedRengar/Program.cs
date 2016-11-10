@@ -31,6 +31,7 @@ namespace GodSpeedRengar
             }
 
             Variables.Q = new Spell.Active(SpellSlot.Q);
+            Variables.Q = new Spell.Skillshot(SpellSlot.Q,450, SkillShotType.Linear, 250, 1000,100);
             Variables.W = new Spell.Skillshot(SpellSlot.W,500,SkillShotType.Circular,250,2000,100);
             Variables.W.AllowedCollisionCount = -1;
             Variables.E = new Spell.Skillshot(SpellSlot.E, 1000, SkillShotType.Linear, 250, 1500, 140);
