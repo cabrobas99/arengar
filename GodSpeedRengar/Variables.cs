@@ -19,7 +19,7 @@ namespace GodSpeedRengar
 {
     public static class Variables
     {
-        public static Spell.Skillshot Q;
+        public static Spell.Targeted Q;
         public static Spell.Skillshot W; 
         public static Spell.Skillshot E; 
         public static Spell.Active R;
