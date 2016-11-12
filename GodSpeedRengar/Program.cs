@@ -30,7 +30,7 @@ namespace GodSpeedRengar
               return;
             }
 
-	     public static Spell.Skillshot Q = new Spell.Skillshot(SpellSlot.Q, (uint)Player.Instance.GetAutoAttackRange() + 325, SkillShotType.Linear, 250, 1500, 70, DamageType.Physical);
+	    Variables.Q = new Spell.Skillshot(SpellSlot.Q, (uint)Player.Instance.GetAutoAttackRange() + 325, SkillShotType.Linear, 250, 1500, 70, DamageType.Physical);
             Variables.W = new Spell.Skillshot(SpellSlot.W,500,SkillShotType.Circular,250,2000,100);
             Variables.W.AllowedCollisionCount = -1;
             Variables.E = new Spell.Skillshot(SpellSlot.E, 1000, SkillShotType.Linear, 250, 1500, 140);
